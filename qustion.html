@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ans {
+            display: none;
+        }
+
+        div {
+            float: left;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: bold;
+            text-decoration: underline;
+        }
+
+        p {
+            font-weight: bold;
+        }
+
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h1> बहुवैकल्पिक प्रश्न</h1>
+        <div>
+            <p>1.आप किन सामाजिक नेटवर्क का उपयोग कर रहे हैं?</p>
+            <label> A</label> <input type="radio" name="X"> टिक टॉक <br>
+            <label> B</label> <input type="radio" name="X"> फेसबुक <br>
+            <label> C</label> <input type="radio" name="X"> इंस्टाग्राम <br>
+            <label> D</label> <input type="radio" name="X"> Linkedin <br>
+            <input type="button" value="Show Answer" onclick="document.getElementById('ans1').style.display='block';">
+            <input type="button" value="Hide Answer" onclick="document.getElementById('ans1').style.display='none';">
+            <p class="ans" id="ans1">Linkedin</p>
+        </div>
+
+        <div>
+            <p>2.सौर परिवार का सबसे छोटा ग्रह है?</p>
+            <label> A</label> <input type="radio" name="Y"> पृथ्वी <br>
+            <label> B</label> <input type="radio" name="Y"> बुध <br>
+            <label> C</label> <input type="radio" name="Y"> वृहस्पति <br>
+            <label> D</label> <input type="radio" name="Y"> शनि <br>
+            <input type="button" value="Show Answer" onclick="document.getElementById('ans2').style.display='block';">
+            <input type="button" value="Hide Answer" onclick="document.getElementById('ans2').style.display='none';">
+            <p class="ans" id="ans2">बुध</p>
+        </div>
+
+        <div>
+            <p>3. निम्नलिखित में से किस ग्रह को लाल ग्रह कहते हैं?</p>
+            <label> A</label> <input type="radio" name="Z"> मंगल <br>
+            <label> B</label> <input type="radio" name="Z"> पृथ्वी <br>
+            <label> C</label> <input type="radio" name="Z"> वृहस्पति <br>
+            <label> D</label> <input type="radio" name="Z"> यूरेनस <br>
+            <input type="button" value="Show Answer" onclick="document.getElementById('ans3').style.display='block';">
+            <input type="button" value="Hide Answer" onclick="document.getElementById('ans3').style.display='none';">
+            <p class="ans" id="ans3">मंगल</p>
+        </div>
+
+        <div>
+            <p>4. What is a keyboard?</p>
+            <label> A</label> <input type="radio" name="W"> It is RAM <br>
+            <label> B</label> <input type="radio" name="W"> It is ROM <br>
+            <label> C</label> <input type="radio" name="W"> It is CPU <br>
+            <label> D</label> <input type="radio" name="W"> It is an input device <br>
+            <input type="button" value="Show Answer" onclick="document.getElementById('ans4').style.display='block';">
+            <input type="button" value="Hide Answer" onclick="document.getElementById('ans4').style.display='none';">
+            <p class="ans" id="ans4">It is an input device</p>
+        </div>
+    </form>
+    <br> <br>
+    <form>
+        <div>
+            <p>1.आप किन सामाजिक नेटवर्क का उपयोग कर रहे हैं?</p>
+            <label> A</label> <input type="radio" name="X"> टिक टॉक <br>
+            <label> B</label> <input type="radio" name="X"> फेसबुक <br>
+            <label> C</label> <input type="radio" name="X"> इंस्टाग्राम <br>
+            <label> D</label> <input type="radio" name="X"> Linkedin <br>
+            <input type="button" value="Show Answer" onclick="document.getElementById('ans1').style.display='block';">
+            <input type="button" value="Hide Answer" onclick="document.getElementById('ans1').style.display='none';">
+            <p class="ans" id="ans1">Linkedin</p>
+        </div>
+
+        <div>
+            <p>2.सौर परिवार का सबसे छोटा ग्रह है?</p>
+            <label> A</label> <input type="radio" name="Y"> पृथ्वी <br>
+            <label> B</label> <input type="radio" name="Y"> बुध <br>
+            <label> C</label> <input type="radio" name="Y"> वृहस्पति <br>
+            <label> D</label> <input type="radio" name="Y"> शनि <br>
+            <input type="button" value="Show Answer" onclick="document.getElementById('ans2').style.display='block';">
+            <input type="button" value="Hide Answer" onclick="document.getElementById('ans2').style.display='none';">
+            <p class="ans" id="ans2">बुध</p>
+        </div>
+
+        <div>
+            <p>3. निम्नलिखित में से किस ग्रह को लाल ग्रह कहते हैं?</p>
+            <label> A</label> <input type="radio" name="Z"> मंगल <br>
+            <label> B</label> <input type="radio" name="Z"> पृथ्वी <br>
+            <label> C</label> <input type="radio" name="Z"> वृहस्पति <br>
+            <label> D</label> <input type="radio" name="Z"> यूरेनस <br>
+            <input type="button" value="Show Answer" onclick="document.getElementById('ans3').style.display='block';">
+            <input type="button" value="Hide Answer" onclick="document.getElementById('ans3').style.display='none';">
+            <p class="ans" id="ans3">मंगल</p>
+        </div>
+
+        <div>
+            <p>4. What is a keyboard?</p>
+            <label> A</label> <input type="radio" name="W"> It is RAM <br>
+            <label> B</label> <input type="radio" name="W"> It is ROM <br>
+            <label> C</label> <input type="radio" name="W"> It is CPU <br>
+            <label> D</label> <input type="radio" name="W"> It is an input device <br>
+            <input type="button" value="Show Answer" onclick="document.getElementById('ans4').style.display='block';">
+            <input type="button" value="Hide Answer" onclick="document.getElementById('ans4').style.display='none';">
+            <p class="ans" id="ans4">It is an input device</p>
+        </div>
+    </form>
+</body>
+
+</html>
